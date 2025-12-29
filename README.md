@@ -25,10 +25,11 @@
 ## **Features**
 - Built from G990B2XXUFIYJ1 kernel source code
 - Based on tag [LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0](https://git.codelinaro.org/clo/la/kernel/msm-5.4/-/tree/LA.UM.9.14.r1-26700-LAHAINA.QSSI16.0/)
-- Upstreamed to Linux v5.4.301
+- Upstreamed to Linux v5.4.302
 - Pure stock kernel, only minor changes were applied
 - Built with Clang 19.0.0 ([r530567](https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/main/clang-r530567/)) Toolchain
 - Samsung Knox features disabled (RKP, FIVE, FASTUH, Defex etc.)
+- Spoofed bootloader values (verifiedbootstate, vbmeta.device_state etc.)
 - Switchable SELinux status
 
 ## **Supported devices**
